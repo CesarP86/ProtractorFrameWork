@@ -12,7 +12,6 @@ describe('demo calculator test', function(){
        homepage.clickGo();
         //element(by.cssContainingText('.ng-binding','4'));
         homepage.verifyResult('4');
-       
-        
+       browser.sleep(2000);        
     });
 });
